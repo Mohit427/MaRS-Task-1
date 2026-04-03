@@ -8,8 +8,12 @@ of Linux and since I am on a mac I directly used the terminal to put those to us
 I didn't know how to do some of the tasks in the question. So I used Gemini and Google
 to learn the cmds for the task and also it's extensions just to satisfy my curiosity.
 I then created a github repo and cloned it onto my Laptop, created a folder structure
-and then a single bash script to automate directory creation and many such tasks, where I wrote all the commands in VS Code, but it didn't produce any output because I forgot to save the .sh file. So I saved it, gave some sample inputs and everything worked like a charm. I also had a bit of a learning curve with Git and Github but eventually came over it with the help of the given resources.
+and then a single bash script to automate directory creation and many such tasks, 
+where I wrote all the commands in VS Code, but it didn't produce any output because 
+I forgot to save the .sh file. So I saved it, gave some sample inputs and everything 
+worked like a charm. I also had a bit of a learning curve with Git and Github but 
+eventually came over it with the help of the given resources.
 
 Light Dose Task-2 Bash Scripting
 
-I learnt the basics of bash scripting from the cheat sheet and youtube and the battery task was fairly straight forward from the sources. I had slight trouble understanding the extensions of the ping command and how it worked by pinging google.com. But once I understood it, I was able to complete the Light Dose Task-2 as well.
+I learnt the basics of bash scripting from the cheat sheet and youtube and the battery task was fairly straight forward from the sources.I was not worrying about the syntax but I learnt it in the hard way that even the spaces matter in bash scripting which led to an error. After solving that, I had slight trouble understanding the extensions of the ping command and how it worked by pinging google.com. But once I understood it, I was able to complete the Light Dose Task-2 as well.
