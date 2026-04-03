@@ -1,0 +1,4 @@
+System boot successful
+ERROR: sensor timeout
+Navigation online
+ERROR: GPS signal lost
