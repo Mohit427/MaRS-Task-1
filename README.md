@@ -17,3 +17,17 @@ eventually came over it with the help of the given resources.
 Light Dose Task-2 Bash Scripting
 
 I learnt the basics of bash scripting from the cheat sheet and youtube and the battery task was fairly straight forward from the sources.I was not worrying about the syntax but I learnt it in the hard way that even the spaces matter in bash scripting which led to an error. After solving that, I had slight trouble understanding the extensions of the ping command and how it worked by pinging google.com. But once I understood it, I was able to complete the Light Dose Task-2 as well.
+
+
+Medium Dose Task-1 Coordinate Transformation
+
+Coordinate Transformation as a concept was not new to me, but it's real life application was fascinating...I learnt from sources on the internet about how the translation of coordinates and rotation matrix was fascinating...
+
+The formulae used are attached in the screenshots...Once I learnt the math behind...The implementation using numpy arrays and python library math was very simple and straight forward...
+
+Medium Dose Task-2 Morse Code
+
+This Task was extremely straight forward especially with Python Dictionaries.....But this changed my perspective about morse code for I felt that it was just for sending encrypted information in high alert environments(Effect of movies). This was a new application perspective but other than that, no real hinderances for the solution.
+
+Medium Dose Task-3 Caeser Decode
+
