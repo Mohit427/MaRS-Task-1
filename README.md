@@ -31,3 +31,8 @@ This Task was extremely straight forward especially with Python Dictionaries....
 
 Medium Dose Task-3 Caeser Decode
 
+Medium Dose Task-4 Muchiko and Sanchiko Filters
+
+I had a great time understanding how the Muchiko and Sanchiko filters play an important role in reducing the effect of noise in the data. Muchiko filter is used for datasets with small jitters(Gaussian noise) while Sanchiko filter is used to remove large spikes in the datasets...So, almost always a hybrid filter which removes the spikes and then the white noise, gives a better result for the data filtering...
+
+Medium Dose Task-5
