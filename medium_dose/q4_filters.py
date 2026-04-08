@@ -58,7 +58,7 @@ def conclude(original, muchiko, sanchiko, hybrid):#Concluding Which of the filte
 
 if __name__ == "__main__":
     file_path   = "log.txt"#Assuming that the Data is stored in log.txt in the parent directory itself
-    window_size = int (input("Enter Window Size"))
+    window_size = int (input("Enter Window Size:"))
 
     data = read_data(file_path)#Calling all the required functions
     print(f"Original data   : {data}")
