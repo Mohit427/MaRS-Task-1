@@ -79,6 +79,7 @@ $$Distance = \frac{\text{Real Width (17cm)} \times \text{Focal Length (pixels)}}
 In this task, I learnt about the **Behaviour Tree** and its uses. It proved to be quite similar to a flowchart except for the two Types of nodes that it has and How both of them behave when put to test in a real life scenario. The two types of nodes being sequence node and fallback node. 
 
 I also learnt the advantages of implementation of a Behaviour tree over tons and tons of if else statments. This was a very intuitive task at the surface level but still had lots of stuff to offer as a learning
+
 ---
 
 ## Folder Structure
