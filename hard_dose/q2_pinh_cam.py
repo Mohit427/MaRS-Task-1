@@ -112,5 +112,5 @@ def detect_arrow(image_path):
 
 
 if __name__=="__main__":
-    image_path = "MaRS-Task-1/hard_dose/arrow1.png"
+    image_path = "arrow1.png"
     detect_arrow(image_path)
