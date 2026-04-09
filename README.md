@@ -1,7 +1,6 @@
 # MaRS-Task-1
 
-This repository contains the solutions for the **MaRS (Mobile Robotics Systems)** club recruitment, Task 1. It covers Linux automation, Python-based signal processing, optimization, and navigation algorithms.
-
+This repository contains the solutions for the **MaRS (Mobile Robotics Systems)** club recruitment, Task 1. 
 ---
 
 ## Light Dose Tasks
@@ -46,7 +45,7 @@ Since the rover moves like a King in chess but is restricted from diagonal movem
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 * `medium_dose/`: Filter logic, manipulator optimization, and sensor logs.
 * `hard_dose/`: BFS navigation script and obstacle coordinate files.
 * `screenshots/`: Visual proof of successful test runs and mathematical logic.
