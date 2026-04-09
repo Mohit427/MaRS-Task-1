@@ -45,7 +45,7 @@ Since the rover moves like a King in chess but is restricted from diagonal movem
 
 ---
 
-# Hard Dose: Task 2 - Arrow Distance Estimation
+# Task 2 - Arrow Distance Estimation
 
 ## 1. Problem Statement
 The objective was to calculate the real-world distance of a detected arrow from the rover's camera[cite: 196].The system assumes a pinhole camera model using a webcam with a 1280x720 resolution and a 55° diagonal Field of View (FOV) 
