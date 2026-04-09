@@ -83,6 +83,7 @@ I also learnt the advantages of implementation of a Behaviour tree over tons and
 ---
 
 ## Folder Structure
-* `medium_dose/`: Filter logic, manipulator optimization, and sensor logs.
-* `hard_dose/`: BFS navigation script and obstacle coordinate files.
+* `light_dose/`: Linux Commands and Bash Script Files.
+* `medium_dose/`: Coordinate Tranformation,Morse Code, Caeser Decode,Filter logic, manipulator optimization, and sensor logs.
+* `hard_dose/`: BFS navigation script, Obstacle coordinate files and Behaviour Tree explanation with Image.
 * `screenshots/`: Visual proof of successful test runs and mathematical logic.
