@@ -48,20 +48,20 @@ Since the rover moves like a King in chess but is restricted from diagonal movem
 # Hard Dose: Task 2 - Arrow Distance Estimation
 
 ## 1. Problem Statement
-The objective was to calculate the real-world distance of a detected arrow from the rover's camera[cite: 196].The system assumes a pinhole camera model using a webcam with a 1280x720 resolution and a 55° diagonal Field of View (FOV) [cite: 198, 201-202].
+The objective was to calculate the real-world distance of a detected arrow from the rover's camera[cite: 196].The system assumes a pinhole camera model using a webcam with a 1280x720 resolution and a 55° diagonal Field of View (FOV) 
 
 ## 2. Technical Approach
 My implementation follows a three-step process to convert pixel data into physical distance:
 
 ### A. Focal Length Derivation
-Since only the Diagonal FOV was provided[cite: 202], I first calculated the focal length ($f$) in pixels.
+Since only the Diagonal FOV was provided, I first calculated the focal length ($f$) in pixels.
 1. **Diagonal Resolution:** Calculated using the Pythagorean theorem: $\sqrt{1280^2 + 720^2} \approx 1468.6$ pixels.
 2. **Focal Length Formula:** $$f = \frac{\text{Diagonal Resolution}}{2 \cdot \tan\left(\frac{\text{Diagonal FOV}}{2}\right)}$$
 
 ### B. Image Processing Pipeline
 * **Preprocessing:** Converted the frame to grayscale and applied Gaussian Blur to filter out microgravity-induced sensor noise [cite: 210-211].
-* **Edge Detection:** Used the Canny algorithm to identify sharp intensity changes [cite: 212-213].
-* **Contour Approximation:** Utilized `cv2.approxPolyDP` with a 7-side vertex check to isolate the arrow shape [cite: 218-219].
+* **Edge Detection:** Used the Canny algorithm to identify sharp intensity changes .
+* **Contour Approximation:** Utilized `cv2.approxPolyDP` with a 7-side vertex check to isolate the arrow shape .
 
 ### C. Distance Calculation
 Using the Pinhole Camera Model[cite: 204], the distance is computed as:
@@ -69,7 +69,7 @@ $$Distance = \frac{\text{Real Width (17cm)} \times \text{Focal Length (pixels)}}
 
 ## 3. Challenges & Debugging
 * **OS Path Compatibility:** The initial script failed to load the image (`imread` error) because of Windows-style backslashes (`\`) being used on a macOS environment. I corrected this by implementing a relative path string[cite: 209].
-* [cite_start]**Thresholding:** Fine-tuning the Canny thresholds (50, 150) was necessary to ensure the arrow's edges were closed loops for contour detection[cite: 213].
+* **Thresholding:** Fine-tuning the Canny thresholds (50, 150) was necessary to ensure the arrow's edges were closed loops for contour detection[cite: 213].
 
 
 
